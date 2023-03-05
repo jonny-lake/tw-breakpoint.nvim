@@ -13,8 +13,12 @@ syn match lg "lg:" containedin=All
 highlight xl gui=italic guifg=LightBlue guibg=bg 
 syn match xl "xl:" containedin=All
 
+highlight 2xl gui=italic guifg=LightRed guibg=bg 
+syn match 2xl "2xl:" containedin=All
+
 let xs = matchadd("xs", "xs:")
 let sm = matchadd("sm", "sm:")
 let md = matchadd("md", "md:")
 let lg = matchadd("lg", "lg:")
 let xl = matchadd("xl", "xl:")
+let txl = matchadd("2xl", "2xl:")
