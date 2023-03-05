@@ -6,11 +6,17 @@ tw-breakpoint.nvim is a tailwind-css inline syntax highlighter to help keep your
 
 ## Features
 
-- Set up to 24 color tags for inline tailwind-css in .tsx, .jsx, .ts, .js, .html, .astro, .vue, and .erb files: (default colors are shown below)
+- Set up to 24 color tags for inline tailwind-css in .tsx, .jsx, .ts, .js, .html, .astro, .vue, and .erb files
 
-![Inline colors](images/docex.png)
+a port of ![tw-breakpoint](https://github.com/jonny-lake/tw-break) for neovim and vim
 
 ## Customization and Setup
+
+### Install:
+#### Packer
+```lua
+use {"jonny-lake/tw-breakpoint.nvim"}
+```
 
 ### Setup:
 
@@ -56,6 +62,7 @@ module.exports = {
 ```
 
 ### Customize each color by changing each language.vim file in the install path.
+#### Custom values will be re-written at the moment if you are using a plugin manager.
 
 #### Edit `guifg`, `guibg` and `gui` to your liking.
 
